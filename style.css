@@ -59,6 +59,7 @@ button{
     border-radius: 20%;
     scale: (2,2);
     margin-bottom: 10;
+    font-size: 15px;
 }
 button:hover{
     background-color: rgb(247, 241, 241);

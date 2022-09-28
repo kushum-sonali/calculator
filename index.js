@@ -24,11 +24,18 @@ Array.from(button).forEach((button)=>{
             string=Math.cos(string);
             document.querySelector('input').value=string;
         }
+        else if(e.target.innerHTML=="back"){
+            string=string.substr(0,string.length-1);
+            // string=string.length-1;
+            document.querySelector('input').value=string;
+
+        }
         
         else {
             string=  string+ e.target.innerHTML
         document.querySelector('input').value=string;
         }
+
     })
 })
 
